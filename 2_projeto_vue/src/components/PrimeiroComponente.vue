@@ -1,12 +1,19 @@
 <template>
-    <h1>Olá Vue</h1>
+    <div>
+        <h1>Olá Danilo</h1>
+        <p>Meu nome artístico {{ nome }} e tenho como profissão {{ profissao }}</p>
+    </div>
 </template>
 
 <script>
+    export default {
+        name: 'PrimeiroComponente',
+        data(){
+            return {
+                nome: "Danilin",
+                profissao: "Garoto de Programa"
+            }
+        }
+}
 
-export default ({
-    setup() {
-        name: 'PrimeiroComponente'
-    }
-})
 </script>

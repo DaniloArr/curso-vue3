@@ -1,0 +1,21 @@
+<template>
+    <div>
+        <h2>Descrição da pessoa <br> Nome: {{ nome }}</h2>
+        <Info />
+    </div>
+    
+</template>
+<script>
+import Info from './Info.vue';
+    export default {
+        name: 'Pessoa',
+        components: {
+            Info
+        },
+        data() {
+            return {
+                nome:'Clebinho'
+            }
+        }
+    }
+</script>
