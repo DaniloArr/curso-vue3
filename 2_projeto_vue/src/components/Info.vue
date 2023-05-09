@@ -14,7 +14,7 @@
         </div>
 
         <p v-show="mostrar_email">Email para qualquer dúvida: {{ email }}</p>
-        <p>Acesse o meu Github <a v-bind:href="meu_link" target="_blank">clique aqui!</a> </p>
+        <p class="color_test">Acesse o meu Github <a v-bind:href="meu_link" target="_blank">clique aqui!</a> </p>
         <Picture />
     </div>
 </template>
