@@ -8,6 +8,11 @@
             <li>Java</li>
             <li>MySQL</li>
         </ul>
+
+        <div>
+            <button @click="showEmail"> {{ textButton }}</button>
+        </div>
+
         <p v-show="mostrar_email">Email para qualquer dúvida: {{ email }}</p>
         <p>Acesse o meu Github <a v-bind:href="meu_link" target="_blank">clique aqui!</a> </p>
         <Picture />
@@ -23,9 +28,20 @@ export default {
     data() {
         return {
             esta_trabalhando: false,
-            mostrar_email: true,
+            mostrar_email: false,
             email: 'bythewhei@gmail.com',
-            meu_link: 'https://github.com/DaniloArr'
+            meu_link: 'https://github.com/DaniloArr',
+            textButton: 'Mostrar e-mail'
+        }
+    },
+    methods: {
+        showEmail() {
+            this.mostrar_email = !this.mostrar_email
+            if(!this.mostrar_email){
+                this.textButton = 'Mostrar e-mail'
+            }else {
+                this.textButton = 'Esconder e-mail'
+            }
         }
     }
 }
