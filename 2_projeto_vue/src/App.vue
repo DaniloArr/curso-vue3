@@ -16,7 +16,7 @@
 
 <template>
   <div>
-    <Header />
+    <Header :entrou_user="false" />
     <PrimeiroComponente />
     <p>Classe: {{ testando }}</p>
     <LifeCycle />
