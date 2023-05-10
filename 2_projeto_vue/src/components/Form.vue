@@ -3,11 +3,11 @@
         <h3>Formulário: </h3>
         <form action="" @submit="enviarFormulario($event)">
             <div>
-                <input type="text" v-model="name">
+                <input type="text" v-model="name" placeholder="Nome">
             </div>
             
             <div>
-                <input type="text" v-model="email">
+                <input type="text" v-model="email" placeholder="email@email.com">
             </div>
             <div>
                 <Submit />
@@ -26,8 +26,8 @@ import Submit from './form/Submit.vue'
         },
         data(){
             return {
-                name: "Nome",
-                email: "email@email.com"
+                name: "",
+                email: ""
             }
         },
         methods: {
