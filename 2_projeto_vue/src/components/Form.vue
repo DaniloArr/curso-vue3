@@ -7,7 +7,7 @@
             </div>
             
             <div>
-                <input type="text" v-model="email" placeholder="email@email.com">
+                <input type="text" v-model="email" placeholder="exemplo@email.com">
             </div>
             <div>
                 <Submit />
