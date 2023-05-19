@@ -1,93 +1,180 @@
 {
-    "ingredientes": {
-      "paes": [
-        {
-          "id": 1,
-          "tipo": "Italiano Branco"
-        },
-        {
-          "id": 2,
-          "tipo": "3 Queijos"
-        },
-        {
-          "id": 3,
-          "tipo": "Parmesão e Orégano"
-        },
-        {
-          "id": 4,
-          "tipo": "Integral"
-        }
-      ],
-      "carnes": [
-        {
-          "id": 1,
-          "tipo": "Maminha"
-        },
-        {
-          "id": 2,
-          "tipo": "Alcatra"
-        },
-        {
-          "id": 3,
-          "tipo": "Picanha"
-        },
-        {
-          "id": 4,
-          "tipo": "Fraldinha"
-        },
-        {
-          "id": 5,
-          "tipo": "Costela"
-        }
-      ],
-      "opcionais": [
-        {
-          "id": 1,
-          "tipo": "Bacon"
-        },
-        {
-          "id": 2,
-          "tipo": "Queijo Cheddar"
-        },
-        {
-          "id": 3,
-          "tipo": "Salame"
-        },
-        {
-          "id": 4,
-          "tipo": "Tomate"
-        },
-        {
-          "id": 5,
-          "tipo": "Cebola roxa"
-        },
-        {
-          "id": 6,
-          "tipo": "Pepino"
-        },
-        {
-          "id": 7,
-          "tipo": "Calabresa"
-        },
-        {
-          "id": 8,
-          "tipo": "Queijo Prato"
-        }
-      ]
-    },
-    "status": [
+  "ingredientes": {
+    "paes": [
       {
         "id": 1,
-        "tipo": "Solicitado"
+        "tipo": "Italiano Branco"
       },
       {
         "id": 2,
-        "tipo": "Em produção"
+        "tipo": "3 Queijos"
       },
       {
         "id": 3,
-        "tipo": "Finalizado"
+        "tipo": "Parmesão e Orégano"
+      },
+      {
+        "id": 4,
+        "tipo": "Integral"
       }
     ],
-    "burgers": []
-  }
+    "carnes": [
+      {
+        "id": 1,
+        "tipo": "Maminha"
+      },
+      {
+        "id": 2,
+        "tipo": "Alcatra"
+      },
+      {
+        "id": 3,
+        "tipo": "Picanha"
+      },
+      {
+        "id": 4,
+        "tipo": "Fraldinha"
+      },
+      {
+        "id": 5,
+        "tipo": "Costela"
+      }
+    ],
+    "opcionais": [
+      {
+        "id": 1,
+        "tipo": "Bacon"
+      },
+      {
+        "id": 2,
+        "tipo": "Queijo Cheddar"
+      },
+      {
+        "id": 3,
+        "tipo": "Salame"
+      },
+      {
+        "id": 4,
+        "tipo": "Tomate"
+      },
+      {
+        "id": 5,
+        "tipo": "Cebola roxa"
+      },
+      {
+        "id": 6,
+        "tipo": "Pepino"
+      },
+      {
+        "id": 7,
+        "tipo": "Calabresa"
+      },
+      {
+        "id": 8,
+        "tipo": "Queijo Prato"
+      }
+    ]
+  },
+  "status": [
+    {
+      "id": 1,
+      "tipo": "Solicitado"
+    },
+    {
+      "id": 2,
+      "tipo": "Em produção"
+    },
+    {
+      "id": 3,
+      "tipo": "Finalizado"
+    }
+  ],
+  "burgers": [
+    {
+      "nome": "Marcao",
+      "carne": "Picanha",
+      "pao": "3 Queijos",
+      "opcionais": [
+        "Bacon",
+        "Queijo Prato",
+        "Queijo Cheddar",
+        "Salame"
+      ],
+      "status": "Em produção",
+      "id": 4
+    },
+    {
+      "nome": "Alexandre",
+      "carne": "Picanha",
+      "pao": "Parmesão e Orégano",
+      "opcionais": [
+        "Cebola roxa",
+        "Pepino",
+        "Tomate"
+      ],
+      "status": "Solicitado",
+      "id": 5
+    },
+    {
+      "nome": "Ivanilson",
+      "carne": "Maminha",
+      "pao": "Parmesão e Orégano",
+      "opcionais": [
+        "Salame",
+        "Cebola roxa",
+        "Queijo Prato",
+        "Pepino",
+        "Tomate",
+        "Queijo Cheddar",
+        "Calabresa",
+        "Bacon"
+      ],
+      "status": "Solicitado",
+      "id": 8
+    },
+    {
+      "nome": "Suuuuuuuu",
+      "carne": "Picanha",
+      "pao": "3 Queijos",
+      "opcionais": [
+        "Bacon",
+        "Queijo Cheddar"
+      ],
+      "status": "Em produção",
+      "id": 9
+    },
+    {
+      "nome": "Ayumi",
+      "carne": "Fraldinha",
+      "pao": "3 Queijos",
+      "opcionais": [
+        "Bacon",
+        "Queijo Cheddar"
+      ],
+      "status": "Em produção",
+      "id": 10
+    },
+    {
+      "nome": "Danilin",
+      "carne": "Costela",
+      "pao": "Integral",
+      "opcionais": [
+        "Cebola roxa"
+      ],
+      "status": "Solicitado",
+      "id": 11
+    },
+    {
+      "nome": "Luan",
+      "carne": "Alcatra",
+      "pao": "Parmesão e Orégano",
+      "opcionais": [
+        "Bacon",
+        "Cebola roxa",
+        "Calabresa"
+      ],
+      "status": "Solicitado",
+      "id": 12
+    }
+  ]
+}
